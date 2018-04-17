@@ -1,0 +1,13 @@
+Apr 16 19:34:57.887 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Apr 16 19:34:57.887 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 64868.
+Apr 16 19:34:57.894 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 16 19:34:57.895 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/hugochinchilla/Desktop/RIPv2/project-files/dynamips 
+Apr 16 19:34:57.895 GENERAL: working_dir=/Users/hugochinchilla/Desktop/RIPv2/project-files/dynamips
+Apr 16 19:34:57.895 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-1 
+Apr 16 19:34:59.749 HYPERVISOR: exec_cmd: nio create_udp udp-bdf7248c-e3ed-42a2-ab5e-bc271b16735c 10043 127.0.0.1 10042 
+Apr 16 19:34:59.750 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-bdf7248c-e3ed-42a2-ab5e-bc271b16735c 
+Apr 16 19:34:59.767 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-bdf7248c-e3ed-42a2-ab5e-bc271b16735c 1 
+Apr 16 19:38:46.604 HYPERVISOR: exec_cmd: ethsw delete Ethernetswitch-1 
+Apr 16 19:38:46.613 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 16 19:38:47.019 HYPERVISOR: Stopped.
+Apr 16 19:38:47.019 GENERAL: reset done.

@@ -1,0 +1,16 @@
+Apr 16 19:34:57.643 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Apr 16 19:34:57.644 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 64851.
+Apr 16 19:34:57.650 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 16 19:34:57.651 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/hugochinchilla/Desktop/RIPv2/project-files/dynamips 
+Apr 16 19:34:57.651 GENERAL: working_dir=/Users/hugochinchilla/Desktop/RIPv2/project-files/dynamips
+Apr 16 19:34:57.651 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-4 
+Apr 16 19:34:58.676 HYPERVISOR: exec_cmd: nio create_udp udp-080010b5-4b51-4228-9eec-566a8cab9ca8 10013 127.0.0.1 10012 
+Apr 16 19:34:58.676 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-4 udp-080010b5-4b51-4228-9eec-566a8cab9ca8 
+Apr 16 19:34:58.689 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-4 udp-080010b5-4b51-4228-9eec-566a8cab9ca8 1 
+Apr 16 19:34:58.798 HYPERVISOR: exec_cmd: nio create_udp udp-bfe0926b-4dc2-4c20-8e9b-67a4baa2a9b5 10016 127.0.0.1 10017 
+Apr 16 19:34:58.799 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-4 udp-bfe0926b-4dc2-4c20-8e9b-67a4baa2a9b5 
+Apr 16 19:34:58.819 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-4 udp-bfe0926b-4dc2-4c20-8e9b-67a4baa2a9b5 1 
+Apr 16 19:38:46.603 HYPERVISOR: exec_cmd: ethsw delete Ethernetswitch-4 
+Apr 16 19:38:46.632 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 16 19:38:46.734 HYPERVISOR: Stopped.
+Apr 16 19:38:46.735 GENERAL: reset done.
